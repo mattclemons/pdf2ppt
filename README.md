@@ -9,7 +9,7 @@
 ### Set up a virtual environment (recommended):
 
     python3 -m venv venv 
-    source venv/bin/activate # On macOS/Linux .\venv\Scripts\activate
+    source venv/bin/activate
     pip install pdf2image Pillow python-pptx 
         
 
@@ -24,7 +24,6 @@
     sudo apt update sudo apt install poppler-utils 
 
         
-
 
 ### Usage Command-Line Interface After setting up, you can use the script as follows:
 
