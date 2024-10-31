@@ -14,33 +14,28 @@ poppler for handling PDF conversions.
 Installation
 Clone the repository (if applicable):
 
-bash
-Copy code
+
 git clone https://github.com/yourusername/pdf2ppt.git
 cd pdf2ppt
 Set up a virtual environment (recommended):
 
-bash
-Copy code
+
 python3 -m venv venv
 source venv/bin/activate  # On macOS/Linux
 .\\venv\\Scripts\\activate   # On Windows
 Install required Python packages:
 
-bash
-Copy code
+
 pip install pdf2image Pillow python-pptx
 Install Poppler (required by pdf2image):
 
 macOS (using Homebrew):
 
-bash
-Copy code
+
 brew install poppler
 Linux (Debian/Ubuntu):
 
-bash
-Copy code
+
 sudo apt update
 sudo apt install poppler-utils
 Windows:
@@ -51,8 +46,7 @@ Usage
 Command-Line Interface
 After setting up, you can use the script as follows:
 
-bash
-Copy code
+
 python pdf2ppt.py <input_pdf_file> --output <output_pptx_file>
 Options
 <input_pdf_file>: Path to the PDF file you want to convert.
@@ -61,8 +55,7 @@ Options
 Example
 To convert document.pdf to presentation.pptx:
 
-bash
-Copy code
+
 python pdf2ppt.py document.pdf --output presentation.pptx
 Example Output
 Each page of the PDF file will be converted into a slide within the specified PowerPoint file.
