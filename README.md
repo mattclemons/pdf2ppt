@@ -2,13 +2,6 @@
 
     git clone https://github.com/yourusername/pdf2ppt.git && cd pdf2ppt 
 
-### Set up a virtual environment (recommended):
-
-    python3 -m venv venv 
-    source venv/bin/activate
-    pip install pdf2image Pillow python-pptx 
-        
-
 ### Install Poppler (required by pdf2image):
 
 ### macOS (using Homebrew):
@@ -19,9 +12,13 @@
 
     sudo apt update sudo apt install poppler-utils 
 
-        
+### Set up a virtual environment (recommended):
 
-### Usage Command-Line Interface After setting up, you can use the script as follows:
+    python3 -m venv venv 
+    source venv/bin/activate
+    pip install pdf2image Pillow python-pptx         
+
+### Use the script as follows:
 
     python pdf2ppt.py <input_pdf_file> --output <output_pptx_file>
 
