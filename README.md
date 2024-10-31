@@ -4,25 +4,33 @@
 
 ### Python 3.6+ pdf2image library for converting PDF pages to images. Pillow library for image manipulation. poppler for handling PDF conversions. Installation Clone the repository (if applicable):
 
-        git clone https://github.com/yourusername/pdf2ppt.git cd pdf2ppt Set up a virtual environment (recommended):
+    git clone https://github.com/yourusername/pdf2ppt.git && cd pdf2ppt 
 
-        python3 -m venv venv source venv/bin/activate # On macOS/Linux .\venv\Scripts\activate # On Windows Install required Python packages:
+### Set up a virtual environment (recommended):
 
-        pip install pdf2image Pillow python-pptx Install Poppler (required by pdf2image):
+    python3 -m venv venv 
+    source venv/bin/activate # On macOS/Linux .\venv\Scripts\activate
+    pip install pdf2image Pillow python-pptx 
+        
+
+### Install Poppler (required by pdf2image):
 
 ### macOS (using Homebrew):
 
-        brew install poppler
+    brew install poppler
 
 ### Linux (Debian/Ubuntu):
 
-        sudo apt update sudo apt install poppler-utils Windows:
+    sudo apt update sudo apt install poppler-utils 
 
-### Download Poppler for Windows from this link. Extract the downloaded zip file, and add the path to poppler/bin to your system’s PATH environment variable. Usage Command-Line Interface After setting up, you can use the script as follows:
+        
 
-        python pdf2ppt.py <input_pdf_file> --output <output_pptx_file>
+
+### Usage Command-Line Interface After setting up, you can use the script as follows:
+
+    python pdf2ppt.py <input_pdf_file> --output <output_pptx_file>
 
 
 ### --help: Shows help and usage information. Example To convert document.pdf to presentation.pptx:
 
-        python pdf2ppt.py document.pdf --output presentation.pptx
+    python pdf2ppt.py document.pdf --output presentation.pptx
