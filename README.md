@@ -1,5 +1,4 @@
-PDF to PowerPoint (pdf2ppt) Converter
-pdf2ppt is a Python tool that converts each page of a PDF file into a separate slide in a PowerPoint presentation. This can be useful for presentations where you want to convert document pages into slides for easy viewing and editing.
+#pdf2ppt is a Python tool that converts each page of a PDF file into a separate slide in a PowerPoint presentation. This can be useful for presentations where you want to convert document pages into slides for easy viewing and editing.
 
 Features
 Convert PDF files into PowerPoint (.pptx) presentations.
